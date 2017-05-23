@@ -65,7 +65,7 @@ class GameScene: SKScene {
     }
     
     /*func pointForColumn(column: Int, row: Int) -> CGPoint {
-        return nil
+    return nil
     }*/
     
     func addPreviewShapeToScene(shape:Shape, completion:() -> ()) {
