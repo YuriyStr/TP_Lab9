@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84093BE51ED45E42007A11F8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84093BE31ED45E42007A11F8 /* MapViewController.swift */; };
+		84093BE91ED45E51007A11F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84093BE71ED45E51007A11F8 /* Main.storyboard */; };
+		84093BEB1ED45E5D007A11F8 /* SignInUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84093BEA1ED45E5D007A11F8 /* SignInUpViewController.swift */; };
+		84093BED1ED45F80007A11F8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84093BEC1ED45F80007A11F8 /* MenuViewController.swift */; };
 		84154FC31ED3158800C49E17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84154FC21ED3158800C49E17 /* AppDelegate.swift */; };
 		84154FD91ED3158800C49E17 /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84154FD81ED3158800C49E17 /* TetrisTests.swift */; };
 		84154FEC1ED3194400C49E17 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84154FE61ED3194400C49E17 /* bomb.mp3 */; };
@@ -35,8 +39,6 @@
 		8415502A1ED31A5D00C49E17 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8415500F1ED31A5D00C49E17 /* whitebg@2x.png */; };
 		8415502B1ED31A5D00C49E17 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841550101ED31A5D00C49E17 /* ZShape.swift */; };
 		8497F4D61ED41AC800F656B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F4D41ED41AC800F656B5 /* GameViewController.swift */; };
-		8497F4D71ED41AC800F656B5 /* SignInUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F4D51ED41AC800F656B5 /* SignInUpViewController.swift */; };
-		8497F4DA1ED41AD100F656B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497F4D81ED41AD100F656B5 /* Main.storyboard */; };
 		8497F4DC1ED4228B00F656B5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8497F4DB1ED4228B00F656B5 /* libsqlite3.0.dylib */; };
 		8497F5001ED422C800F656B5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497F4ED1ED422C800F656B5 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8497F5011ED422C800F656B5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497F4EF1ED422C800F656B5 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -61,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84093BE31ED45E42007A11F8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Tetris/MapViewController.swift; sourceTree = "<group>"; };
+		84093BE81ED45E51007A11F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Tetris/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84093BEA1ED45E5D007A11F8 /* SignInUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInUpViewController.swift; path = Tetris/SignInUpViewController.swift; sourceTree = "<group>"; };
+		84093BEC1ED45F80007A11F8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Tetris/MenuViewController.swift; sourceTree = "<group>"; };
 		84154FBD1ED3158800C49E17 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84154FC11ED3158800C49E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84154FC21ED3158800C49E17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,8 +107,6 @@
 		8415500F1ED31A5D00C49E17 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		841550101ED31A5D00C49E17 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		8497F4D41ED41AC800F656B5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = Tetris/GameViewController.swift; sourceTree = "<group>"; };
-		8497F4D51ED41AC800F656B5 /* SignInUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInUpViewController.swift; path = Tetris/SignInUpViewController.swift; sourceTree = "<group>"; };
-		8497F4D91ED41AD100F656B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Tetris/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8497F4DB1ED4228B00F656B5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		8497F4EC1ED422C800F656B5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		8497F4ED1ED422C800F656B5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
@@ -145,11 +149,13 @@
 		84154FB41ED3158800C49E17 = {
 			isa = PBXGroup;
 			children = (
+				84093BEC1ED45F80007A11F8 /* MenuViewController.swift */,
+				84093BEA1ED45E5D007A11F8 /* SignInUpViewController.swift */,
+				84093BE71ED45E51007A11F8 /* Main.storyboard */,
+				84093BE31ED45E42007A11F8 /* MapViewController.swift */,
 				8497F5071ED423A800F656B5 /* Tetris-Bridging-Header.h */,
 				8497F4DB1ED4228B00F656B5 /* libsqlite3.0.dylib */,
-				8497F4D81ED41AD100F656B5 /* Main.storyboard */,
 				8497F4D41ED41AC800F656B5 /* GameViewController.swift */,
-				8497F4D51ED41AC800F656B5 /* SignInUpViewController.swift */,
 				84154FBF1ED3158800C49E17 /* Tetris */,
 				84154FD51ED3158800C49E17 /* TetrisTests */,
 				84154FBE1ED3158800C49E17 /* Products */,
@@ -384,10 +390,10 @@
 				841550291ED31A5D00C49E17 /* whitebg.png in Resources */,
 				841550171ED31A5D00C49E17 /* gameboard.png in Resources */,
 				84154FF01ED3194400C49E17 /* theme.mp3 in Resources */,
-				8497F4DA1ED41AD100F656B5 /* Main.storyboard in Resources */,
 				8497F5051ED422C800F656B5 /* Info.plist in Resources */,
 				8415502A1ED31A5D00C49E17 /* whitebg@2x.png in Resources */,
 				84154FEE1ED3194400C49E17 /* gameover.mp3 in Resources */,
+				84093BE91ED45E51007A11F8 /* Main.storyboard in Resources */,
 				841550201ED31A5D00C49E17 /* drop.mp3 in Resources */,
 				841550241ED31A5D00C49E17 /* Sprites.atlas in Resources */,
 				84154FEF1ED3194400C49E17 /* levelup.mp3 in Resources */,
@@ -416,6 +422,7 @@
 				841550191ED31A5D00C49E17 /* GameScene.swift in Sources */,
 				841550161ED31A5D00C49E17 /* Block.swift in Sources */,
 				8497F5011ED422C800F656B5 /* FMDatabaseAdditions.m in Sources */,
+				84093BE51ED45E42007A11F8 /* MapViewController.swift in Sources */,
 				841550111ED31A5D00C49E17 /* Array2D.swift in Sources */,
 				8415501E1ED31A5D00C49E17 /* Shape.swift in Sources */,
 				8415501D1ED31A5D00C49E17 /* LShape.swift in Sources */,
@@ -424,12 +431,13 @@
 				8497F50B1ED4292E00F656B5 /* PlayerInfo.swift in Sources */,
 				8497F50D1ED429F900F656B5 /* ModelManager.swift in Sources */,
 				84154FC31ED3158800C49E17 /* AppDelegate.swift in Sources */,
+				84093BED1ED45F80007A11F8 /* MenuViewController.swift in Sources */,
 				8415502B1ED31A5D00C49E17 /* ZShape.swift in Sources */,
 				8497F5091ED4268000F656B5 /* Util.swift in Sources */,
 				8497F5031ED422C800F656B5 /* FMDatabaseQueue.m in Sources */,
 				841550281ED31A5D00C49E17 /* TShape.swift in Sources */,
 				8497F5041ED422C800F656B5 /* FMResultSet.m in Sources */,
-				8497F4D71ED41AC800F656B5 /* SignInUpViewController.swift in Sources */,
+				84093BEB1ED45E5D007A11F8 /* SignInUpViewController.swift in Sources */,
 				841550251ED31A5D00C49E17 /* SquareShape.swift in Sources */,
 				8415501C1ED31A5D00C49E17 /* LineShape.swift in Sources */,
 			);
@@ -454,6 +462,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		84093BE71ED45E51007A11F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84093BE81ED45E51007A11F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		84154FCB1ED3158800C49E17 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -468,14 +484,6 @@
 				84154FF71ED31A5D00C49E17 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		8497F4D81ED41AD100F656B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8497F4D91ED41AD100F656B5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
