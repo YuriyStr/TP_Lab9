@@ -209,9 +209,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ow7-j4-q5H">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="486"/>
-                            </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-vg-5bz">
                                 <rect key="frame" x="169" y="504" width="96" height="30"/>
                                 <state key="normal" title="Back to menu">
@@ -221,6 +218,12 @@
                                     <action selector="goBack:" destination="oR3-EW-Ulq" eventType="touchUpInside" id="tD8-Xt-udb"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ow7-j4-q5H">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="486"/>
+                                <connections>
+                                    <outlet property="delegate" destination="oR3-EW-Ulq" id="LY3-W1-TnW"/>
+                                </connections>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
