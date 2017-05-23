@@ -15,24 +15,24 @@ enum BlockColor: Int, Printable {
     case Blue = 0, Orange, Purple, Red, Teal, Yellow
     
     var spriteName: String {
-        switch self {
-        case .Blue:
-            return "blue"
-        case .Orange:
-            return "orange"
-        case .Purple:
-            return "purple"
-        case .Red:
-            return "red"
-        case .Teal:
-            return "teal"
-        case .Yellow:
-            return "yellow"
+    switch self {
+    case .Blue:
+        return "blue"
+    case .Orange:
+        return "orange"
+    case .Purple:
+        return "purple"
+    case .Red:
+        return "red"
+    case .Teal:
+        return "teal"
+    case .Yellow:
+        return "yellow"
         }
     }
     
     var description: String {
-        return self.spriteName
+    return self.spriteName
     }
     
     static func random() -> BlockColor {
@@ -52,15 +52,15 @@ class Block: Hashable, Printable {
     var sprite: SKSpriteNode?
     
     var spriteName: String {
-        return color.description
+    return color.description
     }
     
     var hashValue: Int {
-        return self.column ^ self.row
+    return self.column ^ self.row
     }
     
     var description: String {
-        return "\(color) (\(column), \(row))"
+    return "\(color) (\(column), \(row))"
     }
     
     init(column:Int, row:Int, color:BlockColor) {

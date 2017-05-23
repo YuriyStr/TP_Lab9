@@ -50,6 +50,7 @@
 		8497F50B1ED4292E00F656B5 /* PlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F50A1ED4292E00F656B5 /* PlayerInfo.swift */; };
 		8497F50D1ED429F900F656B5 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497F50C1ED429F900F656B5 /* ModelManager.swift */; };
 		8497F50F1ED4382A00F656B5 /* Lab9.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8497F50E1ED4382A00F656B5 /* Lab9.sqlite */; };
+		84C941871ED468C200BF828D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C941861ED468C200BF828D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		8497F50A1ED4292E00F656B5 /* PlayerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
 		8497F50C1ED429F900F656B5 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 		8497F50E1ED4382A00F656B5 /* Lab9.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lab9.sqlite; sourceTree = "<group>"; };
+		84C941861ED468C200BF828D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C941871ED468C200BF828D /* CoreLocation.framework in Frameworks */,
 				8497F4DC1ED4228B00F656B5 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +152,7 @@
 		84154FB41ED3158800C49E17 = {
 			isa = PBXGroup;
 			children = (
+				84C941861ED468C200BF828D /* CoreLocation.framework */,
 				84093BEC1ED45F80007A11F8 /* MenuViewController.swift */,
 				84093BEA1ED45E5D007A11F8 /* SignInUpViewController.swift */,
 				84093BE71ED45E51007A11F8 /* Main.storyboard */,
