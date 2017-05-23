@@ -61,7 +61,7 @@ class Tetris {
             for block in shape.blocks {
                 if block.column < 0 || block.column >= NumColumns
                     || block.row < 0 || block.row >= NumRows {
-                        return true
+                    return true
                 } else if blockArray[block.column, block.row] != nil {
                     return true
                 }
