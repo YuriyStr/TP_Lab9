@@ -121,7 +121,7 @@
 		8497F4F51ED422C800F656B5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		8497F4F61ED422C800F656B5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		8497F4F71ED422C800F656B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8497F5071ED423A800F656B5 /* Tetris-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetris-Bridging-Header.h"; sourceTree = "<group>"; };
+		8497F5071ED423A800F656B5 /* Tetris-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetris-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		8497F5081ED4268000F656B5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		8497F50A1ED4292E00F656B5 /* PlayerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
 		8497F50C1ED429F900F656B5 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
@@ -152,12 +152,12 @@
 		84154FB41ED3158800C49E17 = {
 			isa = PBXGroup;
 			children = (
-				84C941861ED468C200BF828D /* CoreLocation.framework */,
 				84093BEC1ED45F80007A11F8 /* MenuViewController.swift */,
 				84093BEA1ED45E5D007A11F8 /* SignInUpViewController.swift */,
+				8497F5071ED423A800F656B5 /* Tetris-Bridging-Header.h */,
+				84C941861ED468C200BF828D /* CoreLocation.framework */,
 				84093BE71ED45E51007A11F8 /* Main.storyboard */,
 				84093BE31ED45E42007A11F8 /* MapViewController.swift */,
-				8497F5071ED423A800F656B5 /* Tetris-Bridging-Header.h */,
 				8497F4DB1ED4228B00F656B5 /* libsqlite3.0.dylib */,
 				8497F4D41ED41AC800F656B5 /* GameViewController.swift */,
 				84154FBF1ED3158800C49E17 /* Tetris */,
@@ -178,9 +178,9 @@
 		84154FBF1ED3158800C49E17 /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				8497F4EE1ED422C800F656B5 /* FMDatabaseAdditions.h */,
 				8497F4EC1ED422C800F656B5 /* FMDatabase.h */,
 				8497F4ED1ED422C800F656B5 /* FMDatabase.m */,
-				8497F4EE1ED422C800F656B5 /* FMDatabaseAdditions.h */,
 				8497F4EF1ED422C800F656B5 /* FMDatabaseAdditions.m */,
 				8497F4F01ED422C800F656B5 /* FMDatabasePool.h */,
 				8497F4F11ED422C800F656B5 /* FMDatabasePool.m */,
